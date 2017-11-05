@@ -2,6 +2,13 @@
 
 ## Welcome Screen
 
+### Internet
+
+You decide to connect to the internet.
+On the top right of the screen, you click the icon that has an up arrow and a down arrow.
+You typed in wifi information that you found on one of the sticky notes
+and now the "up arrow and down arrow" icon has turned into a signal icon.
+
 ### Try Xubuntu Or Install Xubuntu
 
 At this point, you see a "Try Xubuntu" button and a "Install Xubuntu" button.
@@ -11,13 +18,7 @@ Since you plan to install other applications, you decided to click the "Install 
 
 You now see two checkboxes
 The first checkbox is for downloading updates while the operating system in installing.
-It is currently disabled since the computer is not connected to the internet.
 The second checkbox is for installing third-party software, which may include some that are proprietary.
-You decide to connect to the internet.
-On the top right of the screen, you see a dialog that says "Wi-Fi Networks Available"
-and you click the icon that has an up arrow and a down arrow.
-You typed in wifi information that you found on one of the sticky notes
-and now the "up arrow and down arrow" icon has turned into a signal icon.
 You decide to check both boxes and click the "Continue" button.
 
 ### Installation Type
