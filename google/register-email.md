@@ -1,5 +1,8 @@
 # Register Google Email
 
+Since you have [installed an operating system](/install-operating-system.md)
+you decide that it is now time to register an email account.
+
 ## Not The Best User Experience
 
 You make your way to [Google](https://www.google.com) and you don't see any way to register a new email address.
