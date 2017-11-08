@@ -2,8 +2,8 @@
 
 ## Previous Steps
 
-Now that you've [installed an operating system](/install-operating-system.md)
-you decide that it is now time to register with a version control system.
+Since you have [installed an operating system](/install-operating-system.md)
+you decide that it is now time to register an email account.
 
 ## Next Steps
 
