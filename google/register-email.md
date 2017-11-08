@@ -20,3 +20,7 @@ You fill out the form fields and click the "Next step" button
 What do you do next?
 
 - [Register Version Control Account](/register-version-control-account)
+
+Or none of these?
+
+- [Start Over](/README.md)
