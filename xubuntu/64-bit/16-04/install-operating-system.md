@@ -1,5 +1,9 @@
 # Install Operating System 64-bit Xubuntu 16.04
 
+## Previous Steps
+
+There were no previous steps.
+
 ## Welcome Screen
 
 ### Internet
@@ -77,7 +81,7 @@ You type in the following to upgrade your packages.
 sudo apt-get upgrade;
 ```
 
-### Next Steps
+## Next Steps
 
 What will you do next?
 
