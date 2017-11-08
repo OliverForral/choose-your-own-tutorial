@@ -81,5 +81,5 @@ sudo apt-get upgrade;
 
 What will you do next?
 
-- [Register Account](/register-account.md)
+- [Register Email](/register-email.md)
 - [Install Application](/install-application.md)
