@@ -83,3 +83,7 @@ What will you do next?
 
 - [Register Email](/register-email.md)
 - [Install Application](/install-application.md)
+
+Or none of these?
+
+- [Start Over](/README.md)
