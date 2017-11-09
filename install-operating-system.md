@@ -1,6 +1,10 @@
 # Install Operating System
 
-## Previous Steps
+## Required Steps
+
+There are no required steps.
+
+## Wake Up
 
 You wake up with no memory of what you are doing or how you got here.
 There appears to be a computer surrounded by USB sticks.
