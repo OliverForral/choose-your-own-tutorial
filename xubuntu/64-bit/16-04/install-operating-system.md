@@ -83,10 +83,14 @@ sudo apt-get upgrade;
 
 ## Next Steps
 
-What will you do next?
+### Steps That Have Similar Requirements
+
+None yet.
+
+### Steps That Require This
 
 - [Register Email](/register-email.md)
 
-Or none of these?
+### Back To The Beginning
 
 - [Start Over](/README.md)
