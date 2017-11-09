@@ -1,9 +1,8 @@
 # Register GitHub Version Control Account
 
-## Previous Steps
+## Required Steps
 
-Since you have already [registered an email account](/register-email.md)
-you decide that it is now time to register a GitHub version control account.
+- [Register Email](/register-email.md)
 
 ## Signing Up
 
