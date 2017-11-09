@@ -1,9 +1,8 @@
 # Register Google Email
 
-## Previous Steps
+## Required Steps
 
-Since you have [installed an operating system](/install-operating-system.md)
-you decide that it is now time to register a Google email account.
+- [Install Operating System](/install-operating-system.md)
 
 ## Not The Best User Experience
 
