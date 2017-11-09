@@ -1,9 +1,8 @@
 # Register Email
 
-## Previous Steps
+## Required Steps
 
-Since you have [installed an operating system](/install-operating-system.md)
-you decide that it is now time to register an email account.
+- [Install an operating system](/install-operating-system.md)
 
 ## Next Steps
 
