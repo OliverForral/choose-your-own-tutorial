@@ -13,10 +13,14 @@ You have a variety of USB sticks to choose from, but only a few seem to be boota
 
 ## Next Steps
 
-What will you do?
+### Steps That Have Similar Requirements
+
+None yet.
+
+### Steps That Require This
 
 - [Install Operating System 64-bit Xubuntu 16.04](xubuntu/64-bit/16-04/install-operating-system.md)
 
-Or none of these?
+### Back To The Beginning
 
 - [Start Over](/README.md)
