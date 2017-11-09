@@ -1,4 +1,4 @@
-# Register GitHub Version Control Account
+# Register GitHub Account
 
 ## Required Steps
 
