@@ -1,8 +1,8 @@
 # Install Operating System 64-bit Xubuntu 16.04
 
-## Previous Steps
+## Required Steps
 
-There were no previous steps.
+There are no required steps.
 
 ## Welcome Screen
 
