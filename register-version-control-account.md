@@ -1,9 +1,8 @@
 # Register Version Control Account
 
-## Previous Steps
+## Required Steps
 
-Since you have already [registered an email account](/register-email.md) you continue onward.
-You decide to register with a version control system.
+- [Register Email](/register-email.md)
 
 ## Next Steps
 
