@@ -3,6 +3,7 @@
 ## Required Steps
 
 - [Install Operating System 64-bit Xubuntu 16.04](xubuntu/64-bit/16-04/install-operating-system.md)
+- [Register GitHub Account](/github/register-version-control-account.md)
 
 ## Setup
 
@@ -42,4 +43,24 @@ Make your way to [GitHub](https://github.com) and do the following
 5. Create a title
 6. Paste the SSH Key
 7. Click Add SSH Key
+
+### Test SSH Connection
+
+```bash
+$ ssh -T git@github.com
+```
+
+## Next Steps
+
+### Steps That Have Similar Requirements
+
+None yet.
+
+### Steps That Require This
+
+None yet.
+
+### Back To The Beginning
+
+- [Start Over](/README.md)
 
