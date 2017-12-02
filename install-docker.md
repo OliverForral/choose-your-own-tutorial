@@ -2,7 +2,7 @@
 
 ## Required Steps
 
-none
+- [Install an operating system](/install-operating-system.md)
 
 ## Next Steps
 
