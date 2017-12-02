@@ -2,14 +2,7 @@
 
 ## Required Steps
 
-There are no required steps.
-
-## Wake Up
-
-You wake up with no memory of what you are doing or how you got here.
-There appears to be a computer surrounded by USB sticks.
-You turn the computer on to find out it has no operating system.  
-You have a variety of USB sticks to choose from, but only a few seem to be bootable.
+None yet
 
 ## Next Steps
 
