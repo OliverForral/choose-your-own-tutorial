@@ -1,9 +1,8 @@
-# Install Git On 64-bit Xubuntu 16.04
+# Install Git
 
 ## Required Steps
 
-- [Install Operating System 64-bit Xubuntu 16.04](/xubuntu/64-bit/16-04/install-operating-system.md)
-- [Register Email](/register-email.md)
+- [Register Gmail Account](/setup/register-gmail-account.md)
 
 ## Setup
 
@@ -40,15 +39,9 @@ $ vi ~/.gitconfig
 
 ## Next Steps
 
-### Steps That Have Similar Requirements
+- [Install Docker](/setup/install-docker.md)
 
-None yet.
-
-### Steps That Require This
-
-None yet.
-
-### Back To The Beginning
+## Back To The Beginning
 
 - [Start Over](/README.md)
 

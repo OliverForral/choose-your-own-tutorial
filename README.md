@@ -1,9 +1,9 @@
 # Choose Your Own Tutorial
 
-Welcome to Choose Your Own Tutorial.
-What will you do?
-
-- [Install Operating System](/install-operating-system.md)
-- [Register Email](/register-email.md)
-- [Register Version Control Account](/register-version-control-account.md)
-- [Setup SSH Key](/setup-ssh-key.md)
+- Setup
+  - [Install Xubuntu](/setup/install-xubuntu.md)
+  - [Register Gmail Account](/setup/register-gmail-account.md)
+  - [Register GitHub Account](/setup/register-github-account.md)
+  - [Setup SSH Key](/setup/setup-ssh-key.md)
+  - [Install Git](/setup/install-git.md)
+  - [Install Docker](/setup/install-docker.md)

@@ -1,9 +1,8 @@
-# Setup SSH Key For 64-bit Xubuntu 16.04
+# Setup SSH Key
 
 ## Required Steps
 
-- [Install Operating System 64-bit Xubuntu 16.04](/xubuntu/64-bit/16-04/install-operating-system.md)
-- [Register GitHub Account](/github/register-version-control-account.md)
+- [Register GitHub Account](/setup/register-github-account.md)
 
 ## Setup
 
@@ -52,15 +51,9 @@ $ ssh -T git@github.com
 
 ## Next Steps
 
-### Steps That Have Similar Requirements
+- [Install Git](/setup/install-git.md)
 
-None yet.
-
-### Steps That Require This
-
-None yet.
-
-### Back To The Beginning
+## Back To The Beginning
 
 - [Start Over](/README.md)
 

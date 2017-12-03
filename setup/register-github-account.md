@@ -2,19 +2,19 @@
 
 ## Required Steps
 
-- [Register Email](/register-email.md)
+- [Register Gmail Account](/setup/register-gmail-account.md)
 
-## Signing Up
+## Setup
+
+### Signing Up
 
 You make your way to [GitHub](https://github.com) and immediately fill out the form
 and click the green "Sign Up For GitHub" button.
 
 ## Next Steps
 
-What do you do next?
+- [Setup SSH Key](/setup/setup-ssh-key.md)
 
-- [Setup SSH Key](/setup-ssh-key.md)
-
-Or none of these?
+## Or none of these?
 
 - [Start Over](/README.md)

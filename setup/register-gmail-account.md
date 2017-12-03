@@ -1,10 +1,12 @@
-# Register Google Email
+# Register Gmail Account
 
 ## Required Steps
 
-- [Install Operating System](/install-operating-system.md)
+- [Install Xubuntu](/setup/install-xubuntu.md)
 
-## Not The Best User Experience
+## Setup
+
+### Not The Best User Experience
 
 You make your way to [Google](https://www.google.com) and you don't see any way to register a new email address.
 You realize that Google is not the best at user experience
@@ -15,7 +17,7 @@ Since none of the options seem to be what you want, you click on the "More Optio
 It turned out to be fruitful and a dialog appears.
 You click on the "Create Account" link.
 
-## Create Your Google Account
+### Create Your Google Account
 
 You fill out the form fields and click the "Next step" button
 
@@ -23,7 +25,7 @@ You fill out the form fields and click the "Next step" button
 
 What do you do next?
 
-- [Register Version Control Account](/register-version-control-account.md)
+- [Register GitHub Account](/setup/register-github-account.md)
 
 Or none of these?
 

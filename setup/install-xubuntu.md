@@ -1,10 +1,10 @@
-# Install Operating System 64-bit Xubuntu 16.04
+# Install Xubuntu
 
 ## Required Steps
 
 There are no required steps.
 
-## Welcome Screen
+## Setup
 
 ### Internet
 
@@ -81,16 +81,10 @@ You type in the following to upgrade your packages.
 sudo apt-get upgrade;
 ```
 
-## Next Steps
+## Next Step
 
-### Steps That Have Similar Requirements
+- [Register Gmail Account](/setup/register-gmail-account.md)
 
-None yet.
-
-### Steps That Require This
-
-- [Register Email](/register-email.md)
-
-### Back To The Beginning
+## Back To The Beginning
 
 - [Start Over](/README.md)
