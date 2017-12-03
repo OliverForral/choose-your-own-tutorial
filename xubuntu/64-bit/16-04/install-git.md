@@ -13,6 +13,23 @@
 $ sudo apt install git
 ```
 
+### Configure
+
+```bash
+$ vi ~/.gitconfig
+[user]
+        name = Your Name
+        email = your_email@example.com
+[core]
+        editor = /usr/bin/vi
+        whitespace = cr-at-eol
+[color]
+        ui = true
+[push]
+        default = simple
+
+```
+
 ## Next Steps
 
 ### Steps That Have Similar Requirements
