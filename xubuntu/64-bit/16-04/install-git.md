@@ -1,4 +1,4 @@
-# Setup SSH Key For 64-bit Xubuntu 16.04
+# Install Git On 64-bit Xubuntu 16.04
 
 ## Required Steps
 
@@ -13,7 +13,15 @@
 $ sudo apt install git
 ```
 
-### Configure
+### Configure Vim
+
+```bash
+$ vi ~/.vimrc
+set backspace=indent,eol,start
+set nocompatible
+```
+
+### Configure Git
 
 ```bash
 $ vi ~/.gitconfig
