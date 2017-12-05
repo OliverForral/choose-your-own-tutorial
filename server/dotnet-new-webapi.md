@@ -2,7 +2,7 @@
 
 ## Required Steps
 
-- [Javascript Docker Project](/server/dotnet-core-docker-project.md)
+- [DotNet Core Docker Project](/server/dotnet-core-docker-project.md)
 
 ## Setup
 
