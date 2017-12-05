@@ -31,6 +31,13 @@ COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "aspnetapp.dll"]
 ```
 
+```bash
+$ vi .dockerignore
+bin\
+obj\
+$ cp .dockerignore .gitignore
+```
+
 ## Next Steps
 
 - [DotNet New WebAPI](/server/dotnet-new-webapi.md)
