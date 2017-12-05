@@ -25,6 +25,16 @@ Make your way to [Digital Ocean](https://www.digitalocean.com/) and do the follo
 3. Under `Choose a size`, click on `$5/mo`
 4. Under `Choose a datacenter region`, under `San Francisco`, click on `2`
 5. Click on `Create`
+6. Wait for it to finish creating
+7. Next to the IP Address, click on `Copy`
+
+### Setup Droplet
+
+If the IP address was 1.2.3.4
+
+```bash
+$ ssh root@1.2.3.4
+```
 
 ## Next Steps
 
