@@ -30,7 +30,7 @@ $ cd projectname
 
 ## Next Steps
 
-- [DotNet Core Docker Project](/web/dotnet-core-docker-project.md)
+- [DotNet Core Docker Project](/server/dotnet-core-docker-project.md)
 
 ## Back To The Beginning
 
