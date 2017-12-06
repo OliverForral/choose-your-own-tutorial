@@ -38,6 +38,18 @@ services:
       - "5000:5000"
     volumes:
       - .:/code
+  database:
+    image: postgres:10.1-alpine
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+ 
+volumes:
+  pgdata:
 ```
 
 ```bash
