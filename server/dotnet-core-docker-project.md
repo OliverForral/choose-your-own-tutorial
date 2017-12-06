@@ -32,6 +32,19 @@ ENTRYPOINT ["dotnet", "aspnetapp.dll"]
 ```
 
 ```bash
+$ vi docker-compose.yml
+```
+
+```YAML
+version: "3"
+services:
+    web:
+        build: .
+        ports:
+            - "8000:80"
+```
+
+```bash
 $ vi .dockerignore
 bin\
 obj\
