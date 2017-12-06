@@ -9,6 +9,12 @@
 Navigate to your project directory and do the following
 
 ```bash
+$ vi .gitignore
+/bin/
+/obj/
+```
+
+```bash
 $ vi Dockerfile
 ```
 
@@ -25,34 +31,26 @@ $ vi docker-compose.yml
 ```YAML
 version: "3"
 services:
-    server:
-        build: .
-        command: dotnet run
-        ports:
-            - "5000:5000"
-        volumes:
-            - .:/code
+  server:
+    build: .
+    command: dotnet run --project api
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
 ```
 
 ```bash
-$ sudo docker-compose run server bash
-# dotnet new sln
-# mkdir api
-# cd api
-# dotnet new webapi
-# cd ..
-# dotnet sln add api/api.csproj
-# mkdir tests
-# cd tests
-# dotnet new xunit
-# cd ..
-# dotnet sln add tests/tests.csproj
-# exit
+$ sudo docker-compose run server dotnet new sln
+$ sudo docker-compose run server dotnet new webapi --output api
+$ sudo docker-compose run server dotnet sln add api/api.csproj
+$ sudo docker-compose run server dotnet new xunit --output tests
+$ sudo docker-compose run server dotnet sln add tests/tests.csproj
 $ sudo chown -R username:username .
 ```
 
 ```bash
-$ vi Program.cs
+$ vi api/Program.cs
 ```
 
 ```csharp
@@ -82,12 +80,6 @@ namespace code
                 .Build();
     }
 }
-```
-
-```bash
-$ vi .gitignore
-/bin/
-/obj/
 ```
 
 ## Next Steps
