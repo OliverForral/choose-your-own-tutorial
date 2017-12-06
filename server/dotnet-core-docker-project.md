@@ -13,22 +13,9 @@ $ vi Dockerfile
 ```
 
 ```dockerfile
-FROM microsoft/aspnetcore-build:2.0 AS build-env
-WORKDIR /app
-
-# Copy csproj and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
-
-# Copy everything else and build
-COPY . ./
-RUN dotnet publish -c Release -o out
-
-# Build runtime image
-FROM microsoft/aspnetcore:2.0
-WORKDIR /app
-COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "aspnetapp.dll"]
+FROM microsoft/dotnet:2.0-sdk
+RUN mkdir /code
+WORKDIR /code
 ```
 
 ```bash
@@ -40,15 +27,67 @@ version: "3"
 services:
     server:
         build: .
+        command: dotnet run
         ports:
-            - "8000:80"
+            - "5000:5000"
+        volumes:
+            - .:/code
 ```
 
 ```bash
-$ vi .dockerignore
-bin\
-obj\
-$ cp .dockerignore .gitignore
+$ sudo docker-compose run server bash
+# dotnet new sln
+# mkdir api
+# cd api
+# dotnet new webapi
+# cd ..
+# dotnet sln add api/api.csproj
+# mkdir tests
+# cd tests
+# dotnet new xunit
+# cd ..
+# dotnet sln add tests/tests.csproj
+# exit
+$ sudo chown -R username:username .
+```
+
+```bash
+$ vi Program.cs
+```
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+
+namespace code
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            BuildWebHost(args).Run();
+        }
+
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseUrls("http://0.0.0.0:5000")
+                .UseStartup<Startup>()
+                .Build();
+    }
+}
+```
+
+```bash
+$ vi .gitignore
+/bin/
+/obj/
 ```
 
 ## Next Steps
