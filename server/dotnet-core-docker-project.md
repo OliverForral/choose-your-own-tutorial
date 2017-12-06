@@ -10,8 +10,8 @@ Navigate to your project directory and do the following
 
 ```bash
 $ vi .gitignore
-/bin/
-/obj/
+bin/
+obj/
 ```
 
 ```bash
