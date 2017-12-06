@@ -38,7 +38,7 @@ $ vi docker-compose.yml
 ```YAML
 version: "3"
 services:
-    web:
+    server:
         build: .
         ports:
             - "8000:80"
